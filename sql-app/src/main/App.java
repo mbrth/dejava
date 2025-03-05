@@ -40,7 +40,7 @@ public class App
                     break;
             }
 
-            /* 
+            
             Statement stmt = connexion.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT id, nom, email FROM utilisateurs");
 
@@ -53,7 +53,7 @@ public class App
                 String email = rs.getString("email");
                 System.out.println("ID : " + id + ", Nom : " + nom + ", Email : " + email);
             }
-            */
+            
         } while (choix != 0);
         connexion.close();
         sc.close();
