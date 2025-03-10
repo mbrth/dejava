@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.App" spacing="10" padding="10">
+    <Label text="Gestion des utilisateurs" />
+    <Button fx:id="createButton" text="Créer un utilisateur" onAction="#createUser" />
+    <Button fx:id="listButton" text="Lister les utilisateurs" onAction="#listUsers" />
+    <Button fx:id="searchButton" text="Rechercher un utilisateur" onAction="#searchUser" />
+    <ListView fx:id="userList" />
+</VBox>

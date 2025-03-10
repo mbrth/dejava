@@ -1,4 +1,4 @@
-package Monprojet;
+package autre.Monprojet;
 
 public class Etudiant {
     private String nom;
