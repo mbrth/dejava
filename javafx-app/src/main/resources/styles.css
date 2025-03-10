@@ -4,6 +4,8 @@
 }
 
 .root {
-    -fx-background-color: #278bd3;
+    -fx-background-image: url("lambos.jpg");
     -fx-font-family: "Arial";
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
 }
