@@ -10,9 +10,6 @@ import javafx.stage.Stage;
 
 public class App extends Application {
 
-    public void handleButtonClick(Label messageLabel) {
-        messageLabel.setText("Texte modifié ");
-    }
     
     @Override
     public void start(Stage primaryStage) throws Exception{
